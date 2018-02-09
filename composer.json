@@ -1,0 +1,32 @@
+{
+    "name": "qi-yu/aliyun-php-sdk-core",
+    "description": "Aliyun SDK Core for PHP",
+    "keywords": [ "aliyun", "sdk", "core" ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://www.aliyun.com/product",
+    "authors": [
+        {
+            "name": "Aliyuncs",
+            "homepage": "https://www.aliyun.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aliyun\\Test\\": "tests/"
+        }
+    }
+}
